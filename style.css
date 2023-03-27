@@ -44,3 +44,22 @@ img{
 #eu{
     font-size: 30px;
 }
+.lado-esquerdo{
+    display: inline;
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #022c16;
+
+}
+.lado-direito{
+    display: inline;
+    width: 50%;
+    float: right;
+    background-color: #022c16;
+
+}
+#rodape{
+    clear: both;
+}
