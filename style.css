@@ -5,8 +5,25 @@
     background-color: gray;
     position: fixed;
     top: 0;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     height: 35px;
     color: #022c16;
+}
+#titulo{
+
+}
+nav{
+    position: absolute;
+    top: 60px;
+}
+img{
+    display: inline-block;
+    max-width: 150%;
+    left: 24px;
+    top: 120px;
+}
+#minha_foto{
+    margin: 0 auto;
+    position: absolute;
 }
