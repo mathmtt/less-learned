@@ -31,6 +31,16 @@ img{
     border-radius: 20px;
 }
 #licoes_aprendidas{
+    letter-spacing: 1px;
+    height: auto;
+    line-height: auto;
 
-
+}
+#licoes_a_aprender{
+    letter-spacing: 1px;
+    height: auto;
+    line-height: auto;
+}
+#eu{
+    font-size: 30px;
 }
