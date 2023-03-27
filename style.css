@@ -19,11 +19,12 @@ nav{
 }
 img{
     display: inline-block;
-    max-width: 150%;
+    max-width: 300px;
     left: 24px;
     top: 120px;
 }
 #minha_foto{
     margin: 0 auto;
-    position: absolute;
+    position: flex;
 }
+#licoes_aprendidas
