@@ -1,5 +1,6 @@
 *{
     background-color: rgb(253, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
 }
 #cabecalho{
     background-color: gray;
@@ -26,7 +27,10 @@ img{
 #minha_foto{
     margin: 0 auto;
     position: flex;
+    padding: auto;
+    border-radius: 20px;
 }
 #licoes_aprendidas{
-    
+
+
 }
