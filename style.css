@@ -1,65 +1,75 @@
-*{
-    background-color: rgb(253, 251, 251);
-    font-family: 'Times New Roman', Times, serif;
+* {
+  background-color: rgb(253, 251, 251);
+  font-family: 'Times New Roman, Times, sans-serif';
 }
-#cabecalho{
-    background-color: gray;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    color: #022c16;
+
+#cabecalho {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  color: #022c16;
 }
-#titulo{
+
+#titulo {
+  color: black;
+}
+
+nav {
+  position: absolute;
+  top: 60px;
+}
+
+img {
+  display: inline-block;
+  max-width: 300px;
+  left: 24px;
+  top: 120px;
+}
+
+#minha_foto {
+  margin: 0 auto;
+  position: flex;
+  padding: auto;
+  border-radius: 20px;
+}
+
+#licoes_aprendidas {
+  letter-spacing: 1px;
+  height: auto;
+  line-height: auto;
 
 }
-nav{
-    position: absolute;
-    top: 60px;
+
+#licoes_a_aprender {
+  letter-spacing: 1px;
+  height: auto;
+  line-height: auto;
 }
-img{
-    display: inline-block;
-    max-width: 300px;
-    left: 24px;
-    top: 120px;
+
+#eu {
+  font-size: 30px;
 }
-#minha_foto{
-    margin: 0 auto;
-    position: flex;
-    padding: auto;
-    border-radius: 20px;
-}
-#licoes_aprendidas{
-    letter-spacing: 1px;
-    height: auto;
-    line-height: auto;
+
+.lado-esquerdo {
+  display: inline;
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #022c16;
+  font-family: sans-serif;
 
 }
-#licoes_a_aprender{
-    letter-spacing: 1px;
-    height: auto;
-    line-height: auto;
-}
-#eu{
-    font-size: 30px;
-}
-.lado-esquerdo{
-    display: inline;
-    width: 40%;
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #022c16;
+
+.lado-direito {
+  display: inline;
+  width: 50%;
+  float: right;
+  background-color: #022c16;
 
 }
-.lado-direito{
-    display: inline;
-    width: 50%;
-    float: right;
-    background-color: #022c16;
 
-}
-#rodape{
-    clear: both;
-}
+#rodape { clear: both; }
